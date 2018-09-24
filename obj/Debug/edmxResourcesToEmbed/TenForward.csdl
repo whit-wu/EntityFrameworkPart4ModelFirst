@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TenForwardModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TenForwardEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="TenForwardModel.Customers" />
+    <EntitySet Name="Transactions" EntityType="TenForwardModel.Transactions" />
+    <AssociationSet Name="CustomersTransactions" Association="TenForwardModel.CustomersTransactions">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" Nullable="false" />
+    <NavigationProperty Name="Transactions" Relationship="TenForwardModel.CustomersTransactions" FromRole="Customers" ToRole="Transactions" />
+  </EntityType>
+  <EntityType Name="Transactions">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+    </Key>
+    <Property Name="TransactionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TransactionAmount" Type="String" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="TenForwardModel.CustomersTransactions" FromRole="Transactions" ToRole="Customers" />
+    <Property Name="CustomersCustomerID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="CustomersTransactions">
+    <End Type="TenForwardModel.Customers" Role="Customers" Multiplicity="1" />
+    <End Type="TenForwardModel.Transactions" Role="Transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="CustomersCustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

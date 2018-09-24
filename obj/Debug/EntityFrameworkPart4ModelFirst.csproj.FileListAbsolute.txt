@@ -1,0 +1,12 @@
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\bin\Debug\EntityFrameworkPart6ModelFirst.exe.config
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\bin\Debug\EntityFrameworkPart6ModelFirst.exe
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\bin\Debug\EntityFrameworkPart6ModelFirst.pdb
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\bin\Debug\EntityFramework.dll
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\bin\Debug\EntityFramework.xml
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\obj\Debug\EntityFrameworkPart4ModelFirst.csprojAssemblyReference.cache
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\obj\Debug\EntityFrameworkPart4ModelFirst.csproj.CoreCompileInputs.cache
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\obj\Debug\EntityFrameworkPart4ModelFirst.csproj.CopyComplete
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\obj\Debug\EntityFrameworkPart6ModelFirst.exe
+C:\Users\Derek\source\repos\EntityFrameworkPart6ModelFirst\EntityFrameworkPart6ModelFirst\obj\Debug\EntityFrameworkPart6ModelFirst.pdb
